@@ -4,7 +4,8 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "v11",
-    "slug": "v11"
+    "name": "v110",
+    "slug": "v110",
+    "orientation": "portrait"
   }
 }
