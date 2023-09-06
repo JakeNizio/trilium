@@ -1,15 +1,15 @@
-# Trilium Dating App
+# Trilium Dating App 🌍
 
 A lightweight dating app that enhances real life interaction rather than replacing it
 
-## Features
+## Features 🪄
 
 - Background location tracking to create matches
 - Realtime chat to communicate with matches
 - Heat maps showing active users nearby
 - Meeting logs containing time and location
 
-## Next Steps
+## Next Steps 🔨
 
 - Limit overfetching and underfetching using GraphQL
 - Use proper loading and cancelling techniques when fetching data to provide a better user experience
