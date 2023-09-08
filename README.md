@@ -15,3 +15,5 @@ A lightweight dating app that enhances real life interaction rather than replaci
 - Use proper loading and cancelling techniques when fetching data to provide a better user experience
 - Configure server-side processing to handle private user data and data from apis
 - Handle app resizing for various displays more fluidly
+
+![profile](https://github.com/JakeNizio/trilium/assets/15017284/e9b0422f-e555-4c5d-8f8b-84de156616e8)
