@@ -29,10 +29,10 @@ const Image = ({ isVisible, onBackward, onForward, image, setImage }) => {
 
     // grabs and resizes image from library and adds to state
     const addImage = async () => {
-        if (!hasLibraryPermission) {
-            Alert.alert('Please enable library permissions...');
-            return;
-        }
+        // if (!hasLibraryPermission) {
+        //     Alert.alert('Please enable library permissions...');
+        //     return;
+        // }
 
         if (image?.length > 3) {
             Alert.alert('Maximum number of photos reached');

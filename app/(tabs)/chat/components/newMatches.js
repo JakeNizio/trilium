@@ -20,7 +20,7 @@ const NewMatches = ({ userID, matches }) => {
             (async () => {
                 const otherIDs = matches?.map(match => (match[0]));
                 const { data, error } = await supabase.from('profiles').select().in('id', otherIDs);
-                if (data) {
+                if (data[0]) {
                     setUserMatches(data);
                 } else if (error) {
                     errorToast(error.message);
@@ -35,7 +35,7 @@ const NewMatches = ({ userID, matches }) => {
                     const imageIDs = userMatches?.map(item => (item.imageOne));
                     const expirationSeconds = 60;
                     const { data, error } = await supabase.storage.from('avatars').createSignedUrls(imageIDs, expirationSeconds);
-                    if (data) {
+                    if (data[0]) {
                         const urls = data.map(item => (item.signedUrl));
                         setOtherImages(urls);
                     } else if (error) {

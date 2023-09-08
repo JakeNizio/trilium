@@ -64,10 +64,10 @@ const ImageModule = ({ userID, images, setImages, dragging, setDragging }) => {
 
     // adds image from library to db storage, db profile, and then stores the image in state
     const addContent = async () => {
-            if (!hasLibraryPermission) {
-                Alert.alert('Please enable library permissions...');
-                return;
-            }
+            // if (!hasLibraryPermission) {
+            //     Alert.alert('Please enable library permissions...');
+            //     return;
+            // }
 
             if (images?.length > 3) {
                 Alert.alert('Maximum number of photos reached');
@@ -112,7 +112,7 @@ const ImageModule = ({ userID, images, setImages, dragging, setDragging }) => {
                     await supabase.from('profiles').update({[column]: data.path}).eq('id', userID);
 
                     // updates image state with new image
-                    setImages([...(images ? [images] : []), [data.path, resizedResult.uri]]);
+                    setImages([...(images ? images : []), [data.path, resizedResult.uri]]);
                 } else if (error) {
                     errorToast(error.message);
                 }
@@ -152,7 +152,7 @@ const ImageModule = ({ userID, images, setImages, dragging, setDragging }) => {
     return (
         <View style={styles.imageModuleFrame}>
             {/* if images show horizontal slider */}
-            {images ?
+            {images?.length > 0 ?
             <>
                 {/* horizontal scroll for images, if the user is dragging, scroll is disabled */}
                 <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} scrollEnabled={dragging ? false : true} contentContainerStyle={{justifyContent: 'center'}} style={{paddingBottom: 6, marginRight: 15}}>

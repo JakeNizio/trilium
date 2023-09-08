@@ -22,7 +22,7 @@ const Matches = ({ userID, matches }) => {
             (async () => {
                 const otherIDs = matches?.map(match => (match[0]));
                 const { data, error } = await supabase.from('profiles').select().in('id', otherIDs);
-                if (data) {
+                if (data[0]) {
                     setUserMatches(data);
                 } else if (error) {
                     errorToast(error.message);
@@ -39,7 +39,7 @@ const Matches = ({ userID, matches }) => {
 
                     const expirationSeconds = 10;
                     const { data, error } = await supabase.storage.from('avatars').createSignedUrls(imageIDs, expirationSeconds);
-                    if (data) {
+                    if (data[0]) {
                         const urls = data.map(item => (item.signedUrl));
                         setOtherImages(urls);
                     } else if (error) {
@@ -54,7 +54,7 @@ const Matches = ({ userID, matches }) => {
                 matches?.map(async (item, index) => {
                     // grab a message from db and marks whether it was sent or recieved
                     const { data, error } = await supabase.from('messages').select().eq('match_id', item[1]).order('created_at',{ascending: false}).limit(1);
-                    if (data) {
+                    if (data[0]) {
                         const recieved = (userID === data[0].user) ? true : false;
                         messages.push([data[0].message, recieved]);
                     } else if (error) {
