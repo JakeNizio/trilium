@@ -9,7 +9,7 @@ A lightweight dating app that enhances real life interaction rather than replaci
 - Heat maps showing active users nearby
 - Meeting logs containing time and location
 
-## Tabs 🔨
+## Tabs 🔍
 
 ### Profile
 
