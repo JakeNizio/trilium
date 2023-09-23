@@ -20,21 +20,21 @@ A lightweight dating app that enhances real life interaction rather than replaci
 ### Swipe
 
 <p float="left">
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/1fa6be06-a207-4006-a443-82f882b16e68" width="200" />
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/23ff0068-83fe-4e9b-a0c6-806f32a6dab1" width="200" /> 
+  <img src="https://github.com/JakeNizio/trilium/assets/15017284/d16f59ed-1fca-45ca-88c8-c92b5e9dd82b" width="200" />
+  <img src="https://github.com/JakeNizio/trilium/assets/15017284/5a5747fe-cd1a-4c6f-9010-71541d55974a" width="200" /> 
 </p>
 
 ### Tonight
 
 <p float="left">
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/2bb6d1a9-b5d5-4ab1-91e1-cdf41377a22b" width="200" />
+  <img src="https://github.com/JakeNizio/trilium/assets/15017284/066f05ec-62eb-4f38-94ae-b88250e82a6c" width="200" />
 </p>
 
 ### Chat
 
 <p float="left">
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/882038b8-2b6a-4a30-b6ef-6fb36b65a1da" width="200" />
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/61b1c32b-a563-4ea1-91cc-76846005748c" width="200" /> 
+  <img src="https://github.com/JakeNizio/trilium/assets/15017284/385ec25e-2381-42a8-953c-a8c81652c71f" width="200" />
+  <img src="https://github.com/JakeNizio/trilium/assets/15017284/9cff35f4-207c-4257-957c-338544b35732" width="200" /> 
 </p>
 
 ## Next Steps 🔨
