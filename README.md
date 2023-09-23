@@ -14,7 +14,7 @@ A lightweight dating app that enhances real life interaction rather than replaci
 ### Profile
 
 <p float="left">
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/6917f9c7-dae8-454c-9918-5c677119aaed" width="200" />
+  <img src="C:\Users\jaken\Documents\Projects\Awkblock\screenshots\profile.png" width="200" />
 </p>
 
 ### Swipe
