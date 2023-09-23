@@ -42,6 +42,7 @@ A lightweight dating app that enhances real life interaction rather than replaci
 - Limit overfetching and underfetching using GraphQL
 - Use proper loading and cancelling techniques when fetching data to provide a better user experience
 - Configure server-side processing to handle private user data and data from apis
+- Break code into smaller functional chunks to make updates easier in the future
 - Handle app resizing for various displays more fluidly
 
 
