@@ -33,7 +33,7 @@ A lightweight dating app that enhances real life interaction rather than replaci
 ### Chat
 
 <p float="left">
-  <img src="https://github.com/JakeNizio/trilium/assets/15017284/68559146-ad94-49e1-94fa-74550751428c" width="200" />
+  <img src="https://github.com/JakeNizio/trilium/assets/15017284/4964ce60-ba3a-460d-8d9a-057ec62b769f" width="200" />
   <img src="https://github.com/JakeNizio/trilium/assets/15017284/9cff35f4-207c-4257-957c-338544b35732" width="200" /> 
 </p>
 
