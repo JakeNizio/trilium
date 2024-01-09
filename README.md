@@ -1,4 +1,4 @@
-# Trilium Dating App 🌍
+# Trillium Dating App 🌍
 
 A lightweight dating app that enhances real life interaction rather than replacing it
 
